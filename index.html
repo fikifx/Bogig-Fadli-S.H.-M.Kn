@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Notaris Zaldin Abdi Maulana | Notaris & PPAT Banyuwangi Terpercaya</title>
-  <meta name="description" content="Kantor Notaris terbaik di Banyuwangi. Melayani Akta Tanah, Pendirian PT/CV/Koperasi dengan pelayanan cepat 24 jam. Rating 5.0 dari 221+ klien puas." />
-  <meta name="keywords" content="notaris banyuwangi, PPAT banyuwangi, akta tanah banyuwangi, pendirian PT CV koperasi banyuwangi, notaris 24 jam" />
+  <title>Notaris Bogig Fadli, S.H., M.Kn. | Notaris & PPAT Banyuwangi Terpercaya</title>
+  <meta name="description" content="Kantor Notaris & PPAT Bogig Fadli, S.H., M.Kn. di Banyuwangi. Melayani balik nama waris, akta tanah, dan konsultasi hukum. Rating 5.0 dari 62 ulasan Google." />
+  <meta name="keywords" content="notaris banyuwangi, PPAT banyuwangi, bogig fadli notaris, balik nama waris banyuwangi, akta tanah banyuwangi" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -30,137 +30,70 @@
   <style>
     html { scroll-behavior: smooth; }
     body { font-family: 'Inter', sans-serif; background: #0F172A; color: #fff; }
-
-    /* Navbar */
     .navbar-scroll { background: rgba(15,23,42,0.97); backdrop-filter: blur(12px); box-shadow: 0 2px 24px rgba(0,0,0,0.4); }
-
-    /* Hero */
     .hero-bg {
       background: linear-gradient(135deg, rgba(15,23,42,0.92) 0%, rgba(15,23,42,0.70) 50%, rgba(212,175,55,0.15) 100%),
-                  url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1800&q=80') center/cover no-repeat;
+                  url('foto/2025-12-12.webp') center/cover no-repeat;
       min-height: 100vh;
     }
-
-    /* Gold gradient text */
     .gold-text { background: linear-gradient(135deg, #D4AF37, #E8CC6A, #D4AF37); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-
-    /* Cards */
     .service-card {
       background: linear-gradient(145deg, rgba(30,41,59,0.9), rgba(15,23,42,0.9));
       border: 1px solid rgba(212,175,55,0.15);
       transition: all 0.4s ease;
     }
-    .service-card:hover {
-      border-color: rgba(212,175,55,0.6);
-      transform: translateY(-8px);
-      box-shadow: 0 20px 60px rgba(212,175,55,0.15);
-    }
+    .service-card:hover { border-color: rgba(212,175,55,0.6); transform: translateY(-8px); box-shadow: 0 20px 60px rgba(212,175,55,0.15); }
     .service-card:hover .icon-wrap { background: linear-gradient(135deg, #D4AF37, #E8CC6A); }
     .service-card:hover .icon-wrap svg { color: #0F172A; }
-
     .icon-wrap { background: rgba(212,175,55,0.12); border-radius: 16px; padding: 16px; display: inline-flex; transition: all 0.4s ease; }
     .icon-wrap svg { color: #D4AF37; transition: all 0.4s ease; }
-
-    /* Stats */
     .stat-item { border-right: 1px solid rgba(212,175,55,0.25); }
     .stat-item:last-child { border-right: none; }
-
-    /* Testimonials */
     .testi-card {
       background: linear-gradient(145deg, rgba(30,41,59,0.95), rgba(15,23,42,0.95));
       border: 1px solid rgba(212,175,55,0.12);
       transition: all 0.3s ease;
     }
     .testi-card:hover { border-color: rgba(212,175,55,0.4); transform: translateY(-4px); }
-
-    /* Slider */
-    .slider-track { display: flex; gap: 24px; transition: transform 0.5s ease; }
-
-    /* Gold btn */
     .btn-gold {
       background: linear-gradient(135deg, #D4AF37, #E8CC6A);
-      color: #0F172A;
-      font-weight: 600;
-      border-radius: 8px;
-      transition: all 0.3s ease;
+      color: #0F172A; font-weight: 600; border-radius: 8px; transition: all 0.3s ease;
     }
     .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(212,175,55,0.4); }
-
-    /* Outline btn */
     .btn-outline { border: 2px solid #D4AF37; color: #D4AF37; border-radius: 8px; transition: all 0.3s ease; background: transparent; }
     .btn-outline:hover { background: rgba(212,175,55,0.1); transform: translateY(-2px); }
-
-    /* Section divider */
     .divider { width: 60px; height: 3px; background: linear-gradient(90deg, #D4AF37, transparent); border-radius: 2px; }
-
-    /* Stars */
     .star { color: #F59E0B; }
-
-    /* Contact form */
     .form-input {
-      background: rgba(30,41,59,0.8);
-      border: 1px solid rgba(212,175,55,0.2);
-      color: #fff;
-      border-radius: 8px;
-      padding: 12px 16px;
-      width: 100%;
-      font-family: 'Inter', sans-serif;
-      transition: border-color 0.3s;
-      outline: none;
+      background: rgba(30,41,59,0.8); border: 1px solid rgba(212,175,55,0.2);
+      color: #fff; border-radius: 8px; padding: 12px 16px; width: 100%;
+      font-family: 'Inter', sans-serif; transition: border-color 0.3s; outline: none;
     }
     .form-input:focus { border-color: #D4AF37; box-shadow: 0 0 0 3px rgba(212,175,55,0.1); }
     .form-input::placeholder { color: #64748B; }
-
-    /* Maps placeholder */
     .maps-placeholder {
       background: linear-gradient(135deg, rgba(30,41,59,0.9), rgba(15,23,42,0.9));
-      border: 1px solid rgba(212,175,55,0.2);
-      border-radius: 16px;
-      height: 320px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      border: 1px solid rgba(212,175,55,0.2); border-radius: 16px; height: 320px;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
     }
-
-    /* WhatsApp float */
     .wa-btn {
-      position: fixed;
-      bottom: 28px;
-      right: 28px;
-      z-index: 999;
-      background: linear-gradient(135deg, #25D366, #128C7E);
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 8px 32px rgba(37,211,102,0.4);
-      animation: pulseWA 2.5s ease-in-out infinite;
-      transition: transform 0.3s;
+      position: fixed; bottom: 28px; right: 28px; z-index: 999;
+      background: linear-gradient(135deg, #25D366, #128C7E); border-radius: 50%;
+      width: 60px; height: 60px; display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 8px 32px rgba(37,211,102,0.4); animation: pulseWA 2.5s ease-in-out infinite; transition: transform 0.3s;
     }
     .wa-btn:hover { transform: scale(1.12); }
     @keyframes pulseWA {
       0%, 100% { box-shadow: 0 8px 32px rgba(37,211,102,0.4), 0 0 0 0 rgba(37,211,102,0.3); }
       50% { box-shadow: 0 8px 32px rgba(37,211,102,0.4), 0 0 0 14px rgba(37,211,102,0); }
     }
-
-    /* Footer */
     footer { background: #070D1A; border-top: 1px solid rgba(212,175,55,0.15); }
-
-    /* Scroll reveal */
     .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
     .reveal.visible { opacity: 1; transform: translateY(0); }
-
-    /* Navbar link active */
     .nav-link { color: rgba(255,255,255,0.75); transition: color 0.3s; text-decoration: none; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.03em; }
     .nav-link:hover { color: #D4AF37; }
-
-    /* Mobile menu */
     #mobile-menu { display: none; }
     #mobile-menu.open { display: flex; }
-
     .badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(212,175,55,0.12); border: 1px solid rgba(212,175,55,0.3); border-radius: 999px; padding: 6px 14px; font-size: 0.78rem; color: #D4AF37; font-weight: 500; letter-spacing: 0.05em; }
   </style>
 </head>
@@ -169,68 +102,60 @@
 <!-- ============ NAVBAR ============ -->
 <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 px-6 md:px-12">
   <div class="max-w-7xl mx-auto flex items-center justify-between">
-    <!-- Logo -->
     <a href="#hero" class="flex items-center gap-3">
       <div class="w-9 h-9 rounded-full flex items-center justify-center" style="background: linear-gradient(135deg,#D4AF37,#E8CC6A);">
         <i data-lucide="scale" style="width:18px;height:18px;color:#0F172A;"></i>
       </div>
       <div>
-        <div class="text-sm font-semibold text-white leading-tight">Notaris Zaldin</div>
+        <div class="text-sm font-semibold text-white leading-tight">Notaris Bogig Fadli</div>
         <div class="text-xs" style="color:#D4AF37;">Banyuwangi</div>
       </div>
     </a>
-
-    <!-- Desktop Nav -->
     <div class="hidden md:flex items-center gap-8">
       <a href="#services" class="nav-link">Layanan</a>
       <a href="#about" class="nav-link">Profil</a>
       <a href="#testimonials" class="nav-link">Ulasan</a>
       <a href="#contact" class="nav-link">Kontak</a>
-      <a href="https://wa.me/6282337299000?text=Halo%2C%20saya%20ingin%20konsultasi%20notaris" target="_blank" class="btn-gold px-5 py-2 text-sm flex items-center gap-2">
+      <a href="https://wa.me/6285232628830?text=Halo%2C%20saya%20ingin%20konsultasi%20notaris" target="_blank" class="btn-gold px-5 py-2 text-sm flex items-center gap-2">
         <i data-lucide="message-circle" style="width:16px;height:16px;"></i>
         Konsultasi
       </a>
     </div>
-
-    <!-- Mobile Hamburger -->
     <button id="menu-btn" class="md:hidden text-white p-2">
       <i data-lucide="menu" style="width:24px;height:24px;"></i>
     </button>
   </div>
-
-  <!-- Mobile Menu -->
   <div id="mobile-menu" class="md:hidden flex-col gap-4 mt-4 px-4 pb-4 border-t border-white/10 pt-4">
     <a href="#services" class="nav-link block py-1">Layanan</a>
     <a href="#about" class="nav-link block py-1">Profil</a>
     <a href="#testimonials" class="nav-link block py-1">Ulasan</a>
     <a href="#contact" class="nav-link block py-1">Kontak</a>
-    <a href="https://wa.me/6282337299000" target="_blank" class="btn-gold px-5 py-2 text-sm text-center mt-2 block">Konsultasi Sekarang</a>
+    <a href="https://wa.me/6285232628830" target="_blank" class="btn-gold px-5 py-2 text-sm text-center mt-2 block">Konsultasi Sekarang</a>
   </div>
 </nav>
 
 <!-- ============ HERO ============ -->
 <section id="hero" class="hero-bg flex items-center justify-center relative overflow-hidden">
-  <!-- Decorative elements -->
   <div class="absolute top-1/4 right-10 w-64 h-64 rounded-full opacity-5" style="background: radial-gradient(circle, #D4AF37, transparent);"></div>
   <div class="absolute bottom-1/3 left-5 w-40 h-40 rounded-full opacity-5" style="background: radial-gradient(circle, #D4AF37, transparent);"></div>
 
   <div class="max-w-4xl mx-auto text-center px-6 py-32 md:py-0">
     <div class="badge mb-6 mx-auto w-fit reveal">
       <i data-lucide="star" style="width:13px;height:13px;"></i>
-      Rating 5.0 &bull; 221+ Ulasan Google
+      Rating 5.0 &bull; 62 Ulasan Google
     </div>
 
     <h1 class="font-serif text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 reveal" style="font-family:'Playfair Display',serif;">
       Legalitas Terpercaya,<br/>
-      <span class="gold-text">Pelayanan Sat-Set</span> Tuntas.
+      <span class="gold-text">Pelayanan Profesional</span> Tuntas.
     </h1>
 
     <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed reveal">
-      Notaris &amp; PPAT Profesional di Banyuwangi. Cepat, Tanpa Drama, Buka <strong class="text-white">24 Jam</strong> — Ahli Akta Tanah &amp; AHU Koperasi/PT/CV.
+      Notaris &amp; PPAT Resmi di Banyuwangi. Cepat, Tepat Waktu &amp; Ramah — Ahli Balik Nama Waris, Akta Tanah, dan Konsultasi Hukum.
     </p>
 
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center reveal">
-      <a href="https://wa.me/6282337299000?text=Halo%2C%20saya%20ingin%20konsultasi%20notaris" target="_blank"
+      <a href="https://wa.me/6285232628830?text=Halo%2C%20saya%20ingin%20konsultasi%20notaris" target="_blank"
          class="btn-gold px-8 py-4 text-base flex items-center gap-3 w-full sm:w-auto justify-center">
         <i data-lucide="message-circle" style="width:20px;height:20px;"></i>
         Konsultasi Sekarang
@@ -242,7 +167,6 @@
     </div>
   </div>
 
-  <!-- Scroll indicator -->
   <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50 animate-bounce">
     <span class="text-xs text-slate-400">Scroll</span>
     <i data-lucide="chevron-down" style="width:20px;height:20px;color:#D4AF37;"></i>
@@ -254,8 +178,8 @@
   <div class="max-w-4xl mx-auto">
     <div class="grid grid-cols-1 sm:grid-cols-3">
       <div class="stat-item text-center py-8 px-6 reveal">
-        <div class="font-serif text-4xl font-bold gold-text mb-1" style="font-family:'Playfair Display',serif;">221+</div>
-        <div class="text-slate-400 text-sm font-medium">Klien Puas</div>
+        <div class="font-serif text-4xl font-bold gold-text mb-1" style="font-family:'Playfair Display',serif;">62+</div>
+        <div class="text-slate-400 text-sm font-medium">Ulasan Google</div>
       </div>
       <div class="stat-item text-center py-8 px-6 reveal">
         <div class="font-serif text-4xl font-bold gold-text mb-1 flex items-center justify-center gap-2" style="font-family:'Playfair Display',serif;">
@@ -264,8 +188,8 @@
         <div class="text-slate-400 text-sm font-medium">Rating Google</div>
       </div>
       <div class="text-center py-8 px-6 reveal">
-        <div class="font-serif text-4xl font-bold gold-text mb-1" style="font-family:'Playfair Display',serif;">24 Jam</div>
-        <div class="text-slate-400 text-sm font-medium">Siap Melayani</div>
+        <div class="font-serif text-4xl font-bold gold-text mb-1" style="font-family:'Playfair Display',serif;">2 Minggu</div>
+        <div class="text-slate-400 text-sm font-medium">Balik Nama Waris</div>
       </div>
     </div>
   </div>
@@ -283,21 +207,20 @@
         Solusi <span class="gold-text">Legalitas</span> Lengkap
       </h2>
       <div class="divider mx-auto mt-4"></div>
-      <p class="text-slate-400 mt-6 max-w-xl mx-auto">Kami menangani berbagai kebutuhan hukum bisnis dan properti Anda dengan cepat, profesional, dan terpercaya.</p>
+      <p class="text-slate-400 mt-6 max-w-xl mx-auto">Kami menangani berbagai kebutuhan hukum pertanahan dan kenotariatan Anda dengan cepat, profesional, dan terpercaya.</p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-
       <!-- Card 1 -->
       <div class="service-card rounded-2xl p-8 reveal">
         <div class="icon-wrap mb-6">
           <i data-lucide="home" style="width:28px;height:28px;"></i>
         </div>
-        <h3 class="font-serif text-xl font-bold text-white mb-3" style="font-family:'Playfair Display',serif;">Akta Tanah & Properti</h3>
-        <p class="text-slate-400 text-sm leading-relaxed mb-5">Jual beli, hibah, waris, APHT, SKMHT, balik nama, dan seluruh urusan akta tanah &amp; PPAT secara lengkap dan aman.</p>
+        <h3 class="font-serif text-xl font-bold text-white mb-3" style="font-family:'Playfair Display',serif;">Urusan Pertanahan (PPAT)</h3>
+        <p class="text-slate-400 text-sm leading-relaxed mb-5">Balik nama waris, jual beli, hibah, APHT, SKMHT, dan seluruh urusan akta tanah &amp; PPAT secara lengkap dan aman.</p>
         <ul class="space-y-2">
+          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Balik Nama Waris</li>
           <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Akta Jual Beli (AJB)</li>
-          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Hibah & Waris</li>
           <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> APHT & SKMHT</li>
         </ul>
       </div>
@@ -310,12 +233,12 @@
         <div class="icon-wrap mb-6" style="background: linear-gradient(135deg,#D4AF37,#E8CC6A);">
           <i data-lucide="briefcase" style="width:28px;height:28px;color:#0F172A;"></i>
         </div>
-        <h3 class="font-serif text-xl font-bold text-white mb-3" style="font-family:'Playfair Display',serif;">Pendirian Badan Usaha / AHU</h3>
-        <p class="text-slate-400 text-sm leading-relaxed mb-5">Pendirian PT, CV, Yayasan, Koperasi Desa (Kopdes), dan pendaftaran AHU secara resmi di Kemenkumham.</p>
+        <h3 class="font-serif text-xl font-bold text-white mb-3" style="font-family:'Playfair Display',serif;">Layanan Notaris Umum</h3>
+        <p class="text-slate-400 text-sm leading-relaxed mb-5">Pembuatan akta dan dokumen legalitas, legalisasi dokumen, surat kuasa, perjanjian, dan layanan kenotariatan lainnya.</p>
         <ul class="space-y-2">
-          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> PT / CV / Firma</li>
-          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Koperasi Desa (Kopdes)</li>
-          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Pendaftaran AHU</li>
+          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Pembuatan Akta</li>
+          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Legalisasi Dokumen</li>
+          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Surat Kuasa & Perjanjian</li>
         </ul>
       </div>
 
@@ -324,12 +247,12 @@
         <div class="icon-wrap mb-6">
           <i data-lucide="file-text" style="width:28px;height:28px;"></i>
         </div>
-        <h3 class="font-serif text-xl font-bold text-white mb-3" style="font-family:'Playfair Display',serif;">Legalisasi & Konsultasi Hukum</h3>
-        <p class="text-slate-400 text-sm leading-relaxed mb-5">Legalisasi dokumen, pembuatan perjanjian, konsultasi hukum bisnis, dan pendampingan legalitas usaha Anda.</p>
+        <h3 class="font-serif text-xl font-bold text-white mb-3" style="font-family:'Playfair Display',serif;">Konsultasi Hukum</h3>
+        <p class="text-slate-400 text-sm leading-relaxed mb-5">Memberikan bantuan dan konsultasi hukum terkait dokumen kenotariatan, pertanahan, dan pendampingan legalitas usaha.</p>
         <ul class="space-y-2">
-          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Legalisasi Dokumen</li>
-          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Surat Kuasa & Perjanjian</li>
-          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Konsultasi Bisnis</li>
+          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Konsultasi Pertanahan</li>
+          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Konsultasi Kenotariatan</li>
+          <li class="flex items-center gap-2 text-sm text-slate-300"><i data-lucide="check-circle" style="width:15px;height:15px;color:#D4AF37;"></i> Pendampingan Hukum</li>
         </ul>
       </div>
 
@@ -344,14 +267,15 @@
       <!-- Image -->
       <div class="reveal">
         <div class="relative">
-          <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=700&q=80"
-               alt="Kantor Notaris Profesional"
-               class="rounded-2xl w-full object-cover" style="height:420px;" />
-          <!-- Floating badge -->
+          <img src="foto/2025-12-12 (1).webp" alt="Kantor Notaris Bogig Fadli" class="rounded-2xl w-full object-cover" style="height:420px;" />
           <div class="absolute -bottom-6 -right-6 rounded-2xl px-6 py-4 shadow-2xl" style="background: linear-gradient(135deg,#D4AF37,#B8962E);">
-            <div class="text-navy font-bold text-2xl font-serif" style="font-family:'Playfair Display',serif;">10+</div>
-            <div class="text-navy/80 text-xs font-semibold">Tahun Pengalaman</div>
+            <div class="font-bold text-2xl font-serif" style="font-family:'Playfair Display',serif;color:#0F172A;">5.0 ★</div>
+            <div class="text-xs font-semibold" style="color:rgba(15,23,42,0.8);">62 Ulasan Google</div>
           </div>
+        </div>
+        <div class="mt-10 grid grid-cols-2 gap-3">
+          <img src="foto/2025-12-12.webp" alt="Kantor 1" class="rounded-xl object-cover w-full" style="height:120px;"/>
+          <img src="foto/2020-05-05.webp" alt="Kantor 2" class="rounded-xl object-cover w-full" style="height:120px;"/>
         </div>
       </div>
 
@@ -359,22 +283,22 @@
       <div class="reveal">
         <div class="badge mb-4">Profil Notaris</div>
         <h2 class="font-serif text-3xl md:text-4xl font-bold text-white mb-6 leading-tight" style="font-family:'Playfair Display',serif;">
-          Zaldin Abdi Maulana<br/><span class="gold-text">S.H., M.Kn.</span>
+          Bogig Fadli<br/><span class="gold-text">S.H., M.Kn.</span>
         </h2>
         <p class="text-slate-400 leading-relaxed mb-6">
-          Notaris &amp; PPAT resmi yang beroperasi di wilayah Banyuwangi dengan keahlian khusus di bidang hukum pertanahan dan badan usaha. Berkomitmen memberikan pelayanan hukum yang cepat (<em>sat-set</em>), transparan, dan bebas drama untuk setiap klien.
+          Notaris &amp; PPAT resmi di wilayah Kabupaten Banyuwangi, Jawa Timur. Berpengalaman dalam pengurusan balik nama waris, akta tanah, dan konsultasi hukum kenotariatan. Dikenal karena pelayanan yang cepat, ramah, dan sangat membantu klien dalam setiap tahapan proses.
         </p>
 
         <div class="grid grid-cols-2 gap-4 mb-8">
           <div class="rounded-xl p-4" style="background: rgba(15,23,42,0.6); border: 1px solid rgba(212,175,55,0.15);">
             <i data-lucide="clock" style="width:20px;height:20px;color:#D4AF37;" class="mb-2"></i>
-            <div class="text-white font-semibold text-sm">Buka 24 Jam</div>
-            <div class="text-slate-500 text-xs">Termasuk hari libur</div>
+            <div class="text-white font-semibold text-sm">Sen–Kamis</div>
+            <div class="text-slate-500 text-xs">Tutup pukul 16.00</div>
           </div>
           <div class="rounded-xl p-4" style="background: rgba(15,23,42,0.6); border: 1px solid rgba(212,175,55,0.15);">
-            <i data-lucide="zap" style="width:20px;height:20px;color:#D4AF37;" class="mb-2"></i>
-            <div class="text-white font-semibold text-sm">Proses Sat-Set</div>
-            <div class="text-slate-500 text-xs">Cepat & efisien</div>
+            <i data-lucide="calendar" style="width:20px;height:20px;color:#D4AF37;" class="mb-2"></i>
+            <div class="text-white font-semibold text-sm">Jumat</div>
+            <div class="text-slate-500 text-xs">Buka mulai 08.30</div>
           </div>
           <div class="rounded-xl p-4" style="background: rgba(15,23,42,0.6); border: 1px solid rgba(212,175,55,0.15);">
             <i data-lucide="shield-check" style="width:20px;height:20px;color:#D4AF37;" class="mb-2"></i>
@@ -384,11 +308,11 @@
           <div class="rounded-xl p-4" style="background: rgba(15,23,42,0.6); border: 1px solid rgba(212,175,55,0.15);">
             <i data-lucide="map-pin" style="width:20px;height:20px;color:#D4AF37;" class="mb-2"></i>
             <div class="text-white font-semibold text-sm">Banyuwangi</div>
-            <div class="text-slate-500 text-xs">Kec. Giri, Penataban</div>
+            <div class="text-slate-500 text-xs">Kec. Banyuwangi, Tukangkayu</div>
           </div>
         </div>
 
-        <a href="https://wa.me/6282337299000?text=Halo%2C%20saya%20ingin%20konsultasi" target="_blank"
+        <a href="https://wa.me/6285232628830?text=Halo%20Pak%20Bogig%2C%20saya%20ingin%20konsultasi%20notaris" target="_blank"
            class="btn-gold px-7 py-3 text-sm inline-flex items-center gap-2">
           <i data-lucide="phone" style="width:16px;height:16px;"></i>
           Hubungi Langsung
@@ -410,7 +334,6 @@
         Kata <span class="gold-text">Klien Kami</span>
       </h2>
       <div class="divider mx-auto mt-4"></div>
-      <!-- Google Rating Display -->
       <div class="flex items-center justify-center gap-4 mt-8">
         <img src="https://www.google.com/favicon.ico" alt="Google" class="w-8 h-8" />
         <div class="text-left">
@@ -420,21 +343,20 @@
               <span class="star text-xl">★</span><span class="star text-xl">★</span><span class="star text-xl">★</span><span class="star text-xl">★</span><span class="star text-xl">★</span>
             </div>
           </div>
-          <div class="text-slate-400 text-sm">221 ulasan di Google Maps</div>
+          <div class="text-slate-400 text-sm">62 ulasan di Google Maps</div>
         </div>
       </div>
     </div>
 
-    <!-- Testimonial Grid -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 reveal">
 
       <div class="testi-card rounded-2xl p-6">
         <div class="flex gap-0.5 mb-4"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
-        <p class="text-slate-300 text-sm leading-relaxed mb-5 italic">"Notaris keren, sat-set tuntas! Urusan akta tanah saya selesai dalam waktu singkat. Sangat profesional dan tidak ribet sama sekali!"</p>
+        <p class="text-slate-300 text-sm leading-relaxed mb-5 italic">"Pengurusan balik nama waris kami selesai hanya dalam 2 minggu! Sangat cepat dan Pak Bogig sangat membantu di setiap tahapannya."</p>
         <div class="flex items-center gap-3">
           <div class="w-10 h-10 rounded-full flex items-center justify-center text-navy font-bold text-sm" style="background: linear-gradient(135deg,#D4AF37,#E8CC6A);">AR</div>
           <div>
-            <div class="text-white font-semibold text-sm">Andi Ramadhan</div>
+            <div class="text-white font-semibold text-sm">Ahmad Rifa'i</div>
             <div class="text-slate-500 text-xs flex items-center gap-1"><i data-lucide="map-pin" style="width:10px;height:10px;color:#D4AF37;"></i> Banyuwangi</div>
           </div>
         </div>
@@ -442,35 +364,23 @@
 
       <div class="testi-card rounded-2xl p-6" style="border-color: rgba(212,175,55,0.3);">
         <div class="flex gap-0.5 mb-4"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
-        <p class="text-slate-300 text-sm leading-relaxed mb-5 italic">"Berhasil bantu Kopdes kami berbadan hukum AHU! Prosesnya cepat dan beliau sangat membantu menjelaskan setiap tahapan dengan sabar dan jelas."</p>
+        <p class="text-slate-300 text-sm leading-relaxed mb-5 italic">"Pelayanan memuaskan, cepat, tepat waktu, dan ramah. Pak Bogig Fadli benar-benar profesional dalam memberikan solusi kenotariatan."</p>
         <div class="flex items-center gap-3">
           <div class="w-10 h-10 rounded-full flex items-center justify-center text-navy font-bold text-sm" style="background: linear-gradient(135deg,#D4AF37,#E8CC6A);">SW</div>
           <div>
             <div class="text-white font-semibold text-sm">Siti Wahyuni</div>
-            <div class="text-slate-500 text-xs flex items-center gap-1"><i data-lucide="map-pin" style="width:10px;height:10px;color:#D4AF37;"></i> Pengurus Kopdes</div>
+            <div class="text-slate-500 text-xs flex items-center gap-1"><i data-lucide="map-pin" style="width:10px;height:10px;color:#D4AF37;"></i> Klien Pertanahan</div>
           </div>
         </div>
       </div>
 
       <div class="testi-card rounded-2xl p-6">
         <div class="flex gap-0.5 mb-4"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
-        <p class="text-slate-300 text-sm leading-relaxed mb-5 italic">"Pelayanan terbaik! Tidak perlu nunggu berhari-hari. Langsung ditangani, hasilnya pun rapih dan sesuai. Recommended banget untuk urusan notaris di Banyuwangi."</p>
+        <p class="text-slate-300 text-sm leading-relaxed mb-5 italic">"Sangat terbantu dengan solusi yang diberikan Pak Bogig. Dokumen beres, prosesnya jelas, dan tidak berbelit-belit sama sekali!"</p>
         <div class="flex items-center gap-3">
           <div class="w-10 h-10 rounded-full flex items-center justify-center text-navy font-bold text-sm" style="background: linear-gradient(135deg,#D4AF37,#E8CC6A);">BP</div>
           <div>
             <div class="text-white font-semibold text-sm">Budi Prasetyo</div>
-            <div class="text-slate-500 text-xs flex items-center gap-1"><i data-lucide="map-pin" style="width:10px;height:10px;color:#D4AF37;"></i> Pemilik Usaha</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card rounded-2xl p-6">
-        <div class="flex gap-0.5 mb-4"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
-        <p class="text-slate-300 text-sm leading-relaxed mb-5 italic">"Luar biasa! Jual beli tanah kami selesai dalam satu hari. Pak Zaldin sangat responsif meski kami hubungi malam hari. Benar-benar layanan 24 jam!"</p>
-        <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-full flex items-center justify-center text-navy font-bold text-sm" style="background: linear-gradient(135deg,#D4AF37,#E8CC6A);">NF</div>
-          <div>
-            <div class="text-white font-semibold text-sm">Novi Fitriana</div>
             <div class="text-slate-500 text-xs flex items-center gap-1"><i data-lucide="map-pin" style="width:10px;height:10px;color:#D4AF37;"></i> Wiraswasta</div>
           </div>
         </div>
@@ -478,24 +388,36 @@
 
       <div class="testi-card rounded-2xl p-6">
         <div class="flex gap-0.5 mb-4"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
-        <p class="text-slate-300 text-sm leading-relaxed mb-5 italic">"Alhamdulillah, pendirian PT kami berjalan lancar. Biaya transparan, tidak ada biaya tersembunyi. Kantor notaris terpercaya di Banyuwangi menurut saya."</p>
+        <p class="text-slate-300 text-sm leading-relaxed mb-5 italic">"Proses balik nama waris selesai lebih cepat dari yang saya bayangkan. Terima kasih Pak Bogig, sangat recommended untuk warga Banyuwangi!"</p>
         <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-full flex items-center justify-center text-navy font-bold text-sm" style="background: linear-gradient(135deg,#D4AF37,#E8CC6A);">HA</div>
+          <div class="w-10 h-10 rounded-full flex items-center justify-center text-navy font-bold text-sm" style="background: linear-gradient(135deg,#D4AF37,#E8CC6A);">NF</div>
           <div>
-            <div class="text-white font-semibold text-sm">Hendra Agung</div>
-            <div class="text-slate-500 text-xs flex items-center gap-1"><i data-lucide="map-pin" style="width:10px;height:10px;color:#D4AF37;"></i> Direktur PT</div>
+            <div class="text-white font-semibold text-sm">Novi Fitriana</div>
+            <div class="text-slate-500 text-xs flex items-center gap-1"><i data-lucide="map-pin" style="width:10px;height:10px;color:#D4AF37;"></i> Banyuwangi</div>
           </div>
         </div>
       </div>
 
       <div class="testi-card rounded-2xl p-6">
         <div class="flex gap-0.5 mb-4"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
-        <p class="text-slate-300 text-sm leading-relaxed mb-5 italic">"Saya butuh legalisasi dokumen mendesak, dan Pak Zaldin langsung bantu walaupun sudah malam. Solusi terbaik untuk kebutuhan notaris dadakan!"</p>
+        <p class="text-slate-300 text-sm leading-relaxed mb-5 italic">"Kantor yang bersih, staf yang ramah, dan pengurusan dokumen pertanahan yang sangat profesional. Tidak kecewa sama sekali!"</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full flex items-center justify-center text-navy font-bold text-sm" style="background: linear-gradient(135deg,#D4AF37,#E8CC6A);">HA</div>
+          <div>
+            <div class="text-white font-semibold text-sm">Hendra Agung</div>
+            <div class="text-slate-500 text-xs flex items-center gap-1"><i data-lucide="map-pin" style="width:10px;height:10px;color:#D4AF37;"></i> Banyuwangi</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card rounded-2xl p-6">
+        <div class="flex gap-0.5 mb-4"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="text-slate-300 text-sm leading-relaxed mb-5 italic">"Konsultasi hukum dengan Pak Bogig sangat membantu. Beliau menjelaskan dengan sabar dan memberikan solusi terbaik untuk masalah saya."</p>
         <div class="flex items-center gap-3">
           <div class="w-10 h-10 rounded-full flex items-center justify-center text-navy font-bold text-sm" style="background: linear-gradient(135deg,#D4AF37,#E8CC6A);">RL</div>
           <div>
             <div class="text-white font-semibold text-sm">Rizky Lestari</div>
-            <div class="text-slate-500 text-xs flex items-center gap-1"><i data-lucide="map-pin" style="width:10px;height:10px;color:#D4AF37;"></i> Karyawan Swasta</div>
+            <div class="text-slate-500 text-xs flex items-center gap-1"><i data-lucide="map-pin" style="width:10px;height:10px;color:#D4AF37;"></i> Banyuwangi</div>
           </div>
         </div>
       </div>
@@ -523,11 +445,10 @@
         Siap <span class="gold-text">Membantu</span> Anda
       </h2>
       <div class="divider mx-auto mt-4"></div>
-      <p class="text-slate-400 mt-5 max-w-md mx-auto">Konsultasikan kebutuhan legalitas Anda. Kami siap melayani 24 jam, 7 hari seminggu.</p>
+      <p class="text-slate-400 mt-5 max-w-md mx-auto">Konsultasikan kebutuhan legalitas Anda. Kami siap melayani seluruh wilayah Banyuwangi.</p>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-
       <!-- Form -->
       <div class="reveal">
         <div class="rounded-2xl p-8" style="background: rgba(15,23,42,0.7); border: 1px solid rgba(212,175,55,0.15);">
@@ -545,9 +466,10 @@
               <label class="block text-slate-400 text-sm mb-2">Layanan yang Dibutuhkan</label>
               <select class="form-input">
                 <option value="" style="background:#1E293B;">Pilih layanan...</option>
-                <option value="akta-tanah" style="background:#1E293B;">Akta Tanah & Properti</option>
-                <option value="badan-usaha" style="background:#1E293B;">Pendirian Badan Usaha / AHU</option>
-                <option value="legalisasi" style="background:#1E293B;">Legalisasi & Konsultasi</option>
+                <option value="balik-nama" style="background:#1E293B;">Balik Nama Waris</option>
+                <option value="akta-tanah" style="background:#1E293B;">Akta Tanah & PPAT</option>
+                <option value="notaris-umum" style="background:#1E293B;">Layanan Notaris Umum</option>
+                <option value="konsultasi" style="background:#1E293B;">Konsultasi Hukum</option>
                 <option value="lainnya" style="background:#1E293B;">Lainnya</option>
               </select>
             </div>
@@ -565,14 +487,13 @@
 
       <!-- Info + Map -->
       <div class="space-y-6 reveal">
-        <!-- Contact Info Cards -->
         <div class="rounded-2xl p-6 flex items-start gap-4" style="background: rgba(15,23,42,0.7); border: 1px solid rgba(212,175,55,0.15);">
           <div class="icon-wrap flex-shrink-0">
             <i data-lucide="map-pin" style="width:22px;height:22px;"></i>
           </div>
           <div>
             <div class="text-white font-semibold mb-1">Alamat Kantor</div>
-            <div class="text-slate-400 text-sm leading-relaxed">Jl. Simpang Gajah Mada Gang 2 No. 2,<br/>Penataban, Kec. Giri, Banyuwangi,<br/>Jawa Timur.</div>
+            <div class="text-slate-400 text-sm leading-relaxed">Jl. Kolonel Sugiono No.21, Tukangkayu,<br/>Kec. Banyuwangi, Kabupaten Banyuwangi,<br/>Jawa Timur 68416.</div>
           </div>
         </div>
         <div class="rounded-2xl p-6 flex items-start gap-4" style="background: rgba(15,23,42,0.7); border: 1px solid rgba(212,175,55,0.15);">
@@ -581,8 +502,8 @@
           </div>
           <div>
             <div class="text-white font-semibold mb-1">Telepon / WhatsApp</div>
-            <a href="https://wa.me/6282337299000" target="_blank" class="text-gold hover:underline text-sm font-medium">0823-3729-9000</a>
-            <div class="text-slate-500 text-xs mt-1">Tersedia 24 jam</div>
+            <a href="https://wa.me/6285232628830" target="_blank" class="text-gold hover:underline text-sm font-medium">0852-3262-8830</a>
+            <div class="text-slate-500 text-xs mt-1">Area pelayanan seluruh Banyuwangi</div>
           </div>
         </div>
         <div class="rounded-2xl p-6 flex items-start gap-4" style="background: rgba(15,23,42,0.7); border: 1px solid rgba(212,175,55,0.15);">
@@ -591,16 +512,16 @@
           </div>
           <div>
             <div class="text-white font-semibold mb-1">Jam Operasional</div>
-            <div class="text-slate-400 text-sm">Senin – Minggu: <span class="text-gold font-semibold">24 Jam</span></div>
-            <div class="text-slate-500 text-xs mt-1">Termasuk hari libur nasional</div>
+            <div class="text-slate-400 text-sm">Sen–Kamis: <span class="text-gold font-semibold">Tutup 16.00</span></div>
+            <div class="text-slate-400 text-sm">Jumat: <span class="text-gold font-semibold">Mulai 08.30</span></div>
           </div>
         </div>
 
         <!-- Google Maps Embed Placeholder -->
         <div class="maps-placeholder reveal">
           <i data-lucide="map" style="width:48px;height:48px;color:#D4AF37;opacity:0.5;" class="mb-4"></i>
-          <p class="text-slate-400 text-sm text-center mb-4 px-4">Jl. Simpang Gajah Mada Gang 2 No. 2,<br/>Penataban, Kec. Giri, Banyuwangi</p>
-          <a href="https://www.google.com/maps/search/Jl.+Simpang+Gajah+Mada+Gang+2+No+2+Penataban+Giri+Banyuwangi"
+          <p class="text-slate-400 text-sm text-center mb-4 px-4">Jl. Kolonel Sugiono No.21, Tukangkayu,<br/>Kec. Banyuwangi, Jawa Timur 68416</p>
+          <a href="https://www.google.com/maps/search/Jl.+Kolonel+Sugiono+No.21+Tukangkayu+Banyuwangi"
              target="_blank" class="btn-gold px-5 py-2 text-sm flex items-center gap-2">
             <i data-lucide="navigation" style="width:15px;height:15px;"></i>
             Buka di Google Maps
@@ -614,11 +535,11 @@
 <!-- ============ CTA STRIP ============ -->
 <section class="py-16 px-6 text-center" style="background: linear-gradient(135deg, #D4AF37 0%, #B8962E 100%);">
   <div class="max-w-3xl mx-auto reveal">
-    <h2 class="font-serif text-2xl md:text-4xl font-bold text-navy mb-4" style="font-family:'Playfair Display',serif; color:#0F172A;">
-      Butuh Notaris Sekarang? Kami Siap!
+    <h2 class="font-serif text-2xl md:text-4xl font-bold mb-4" style="font-family:'Playfair Display',serif; color:#0F172A;">
+      Butuh Notaris Banyuwangi? Kami Siap!
     </h2>
-    <p class="text-navy/70 mb-8 text-sm" style="color: rgba(15,23,42,0.7);">Hubungi kami langsung via WhatsApp untuk konsultasi gratis dan proses yang cepat.</p>
-    <a href="https://wa.me/6282337299000?text=Halo%2C%20saya%20butuh%20bantuan%20notaris%20segera"
+    <p class="mb-8 text-sm" style="color: rgba(15,23,42,0.7);">Hubungi Pak Bogig Fadli langsung via WhatsApp untuk konsultasi dan proses yang cepat.</p>
+    <a href="https://wa.me/6285232628830?text=Halo%20Pak%20Bogig%2C%20saya%20ingin%20konsultasi%20notaris"
        target="_blank"
        class="inline-flex items-center gap-3 px-8 py-4 rounded-lg font-bold text-base transition-all hover:scale-105 hover:shadow-2xl"
        style="background:#0F172A; color:#D4AF37;">
@@ -639,20 +560,20 @@
             <i data-lucide="scale" style="width:20px;height:20px;color:#0F172A;"></i>
           </div>
           <div>
-            <div class="font-serif font-bold text-white" style="font-family:'Playfair Display',serif;">Notaris Zaldin</div>
-            <div class="text-xs" style="color:#D4AF37;">Abdi Maulana, S.H., M.Kn.</div>
+            <div class="font-serif font-bold text-white" style="font-family:'Playfair Display',serif;">Notaris Bogig Fadli</div>
+            <div class="text-xs" style="color:#D4AF37;">S.H., M.Kn.</div>
           </div>
         </div>
-        <p class="text-slate-500 text-sm leading-relaxed">Notaris & PPAT Profesional di Banyuwangi. Pelayanan cepat, transparan, dan terpercaya sejak lebih dari 10 tahun.</p>
+        <p class="text-slate-500 text-sm leading-relaxed">Notaris & PPAT Profesional di Kabupaten Banyuwangi, Jawa Timur. Pelayanan cepat, tepat waktu, dan terpercaya untuk seluruh wilayah Banyuwangi.</p>
       </div>
 
       <!-- Quick Links -->
       <div>
         <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-widest">Layanan</h4>
         <ul class="space-y-2">
-          <li><a href="#services" class="text-slate-500 text-sm hover:text-gold transition-colors">Akta Tanah & Properti</a></li>
-          <li><a href="#services" class="text-slate-500 text-sm hover:text-gold transition-colors">Pendirian PT / CV / Koperasi</a></li>
-          <li><a href="#services" class="text-slate-500 text-sm hover:text-gold transition-colors">Pendaftaran AHU</a></li>
+          <li><a href="#services" class="text-slate-500 text-sm hover:text-gold transition-colors">Balik Nama Waris</a></li>
+          <li><a href="#services" class="text-slate-500 text-sm hover:text-gold transition-colors">Akta Tanah & PPAT</a></li>
+          <li><a href="#services" class="text-slate-500 text-sm hover:text-gold transition-colors">Layanan Notaris Umum</a></li>
           <li><a href="#services" class="text-slate-500 text-sm hover:text-gold transition-colors">Legalisasi Dokumen</a></li>
           <li><a href="#services" class="text-slate-500 text-sm hover:text-gold transition-colors">Konsultasi Hukum</a></li>
         </ul>
@@ -664,15 +585,15 @@
         <ul class="space-y-3">
           <li class="flex items-start gap-2 text-slate-500 text-sm">
             <i data-lucide="map-pin" style="width:15px;height:15px;color:#D4AF37;flex-shrink:0;margin-top:2px;"></i>
-            Jl. Simpang Gajah Mada Gang 2 No. 2, Penataban, Giri, Banyuwangi
+            Jl. Kolonel Sugiono No.21, Tukangkayu, Kec. Banyuwangi, Jawa Timur 68416
           </li>
           <li class="flex items-center gap-2 text-slate-500 text-sm">
             <i data-lucide="phone" style="width:15px;height:15px;color:#D4AF37;flex-shrink:0;"></i>
-            <a href="tel:+6282337299000" class="hover:text-gold transition-colors">0823-3729-9000</a>
+            <a href="tel:+6285232628830" class="hover:text-gold transition-colors">0852-3262-8830</a>
           </li>
           <li class="flex items-center gap-2 text-slate-500 text-sm">
             <i data-lucide="clock" style="width:15px;height:15px;color:#D4AF37;flex-shrink:0;"></i>
-            Buka 24 Jam, 7 Hari Seminggu
+            Sen–Kamis s/d 16.00 | Jumat mulai 08.30
           </li>
         </ul>
       </div>
@@ -680,10 +601,10 @@
 
     <div class="border-t pt-8" style="border-color: rgba(212,175,55,0.1);">
       <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="text-slate-600 text-xs">© 2024 Kantor Notaris Zaldin Abdi Maulana, S.H., M.Kn. Banyuwangi. Semua hak dilindungi.</p>
+        <p class="text-slate-600 text-xs">&copy; 2025 Kantor Notaris Bogig Fadli, S.H., M.Kn. Banyuwangi. Semua hak dilindungi.</p>
         <div class="flex items-center gap-1">
           <div class="flex gap-0.5"><span class="star text-xs">★</span><span class="star text-xs">★</span><span class="star text-xs">★</span><span class="star text-xs">★</span><span class="star text-xs">★</span></div>
-          <span class="text-slate-600 text-xs ml-1">5.0 · 221 Ulasan Google</span>
+          <span class="text-slate-600 text-xs ml-1">5.0 · 62 Ulasan Google</span>
         </div>
       </div>
     </div>
@@ -691,7 +612,7 @@
 </footer>
 
 <!-- ============ FLOATING WA BUTTON ============ -->
-<a href="https://wa.me/6282337299000?text=Halo%20Pak%20Zaldin%2C%20saya%20ingin%20konsultasi%20notaris." target="_blank" class="wa-btn" title="Chat WhatsApp">
+<a href="https://wa.me/6285232628830?text=Halo%20Pak%20Bogig%2C%20saya%20ingin%20konsultasi%20notaris." target="_blank" class="wa-btn" title="Chat WhatsApp">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="28" height="28">
     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
   </svg>
@@ -699,27 +620,22 @@
 
 <!-- ============ SCRIPTS ============ -->
 <script>
-  // Init Lucide Icons
   lucide.createIcons();
 
-  // Navbar scroll effect
   const navbar = document.getElementById('navbar');
   window.addEventListener('scroll', () => {
     if (window.scrollY > 60) navbar.classList.add('navbar-scroll');
     else navbar.classList.remove('navbar-scroll');
   });
 
-  // Mobile menu toggle
   const menuBtn = document.getElementById('menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
   menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('open'));
 
-  // Close mobile menu on link click
   mobileMenu.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => mobileMenu.classList.remove('open'));
   });
 
-  // Scroll reveal
   const revealEls = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, i) => {
@@ -730,7 +646,6 @@
   }, { threshold: 0.12 });
   revealEls.forEach(el => observer.observe(el));
 
-  // Contact form -> WhatsApp
   function submitForm(e) {
     e.preventDefault();
     const form = e.target;
@@ -738,8 +653,8 @@
     const phone = form.querySelector('input[type="tel"]').value;
     const service = form.querySelector('select').value;
     const message = form.querySelector('textarea').value;
-    const text = `Halo Pak Zaldin, saya ${name} (${phone}).\n\nLayanan yang dibutuhkan: ${service || 'Belum ditentukan'}\n\nPesan: ${message}`;
-    window.open('https://wa.me/6282337299000?text=' + encodeURIComponent(text), '_blank');
+    const text = `Halo Pak Bogig, saya ${name} (${phone}).\n\nLayanan yang dibutuhkan: ${service || 'Belum ditentukan'}\n\nPesan: ${message}`;
+    window.open('https://wa.me/6285232628830?text=' + encodeURIComponent(text), '_blank');
   }
 </script>
 
